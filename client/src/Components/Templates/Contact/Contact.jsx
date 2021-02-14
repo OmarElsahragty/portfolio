@@ -26,7 +26,11 @@ const Contact = () => {
         setEmailValidation(true);
         setSnackbarState("success");
       })
-      .catch(() => setSnackbarState("error"));
+      .catch((err) => {
+        // eslint-disable-next-line no-console
+        console.log(err);
+        setSnackbarState("error");
+      });
   };
 
   return (
