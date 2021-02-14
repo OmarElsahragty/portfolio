@@ -31,7 +31,7 @@ const Projects = () => {
             <Grid item className={styles.images}>
               <MultiImagesView
                 src={Project.Images}
-                style={{ height: "50rem", width: "45vw" }}
+                style={{ height: "45vh" }}
               />
             </Grid>
 

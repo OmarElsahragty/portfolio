@@ -81,9 +81,7 @@ const Contact = () => {
               onChange={(e) => {
                 setEmail(e.target.value);
                 setEmailValidation(
-                  /^[a-zA-Z0-9]+@(?:[a-zA-Z0-9]+\.)+[A-Za-z]+$/.test(
-                    e.target.value
-                  )
+                  /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}/.test(e.target.value)
                 );
               }}
             />
