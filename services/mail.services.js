@@ -2,16 +2,16 @@ const nodemailer = require("nodemailer");
 
 exports.sendEmail = (req, res) => {
   const transporter = nodemailer.createTransport({
-    host: process.env.smtp,
+    host: process.env.SMTP,
     auth: {
-      user: process.env.email,
-      pass: process.env.password,
+      user: process.env.EMAIL,
+      pass: process.env.PASSWORD,
     },
   });
 
   transporter.sendMail(
     {
-      from: process.env.email,
+      from: process.env.EMAIL,
       to: "omar_elsahragty@hotmail.com",
       subject: "Sahragty's Portfolio ✔",
       text: `
