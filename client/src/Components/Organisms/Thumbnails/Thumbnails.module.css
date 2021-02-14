@@ -1,0 +1,16 @@
+.thumbnails {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.item {
+  opacity: 0.8;
+  user-select: none;
+  filter: grayscale(100%) opacity(35%);
+  transition: opacity, filter 0.4s;
+}
+.item:hover {
+  opacity: 1;
+  filter: none;
+}

@@ -1,0 +1,102 @@
+/* -------------------------------------------------------------------------- */
+/*                                 application                                */
+/* -------------------------------------------------------------------------- */
+.App {
+  width: 100%;
+  height: 100vh;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    icons                                   */
+/* -------------------------------------------------------------------------- */
+.icon {
+  margin: 0 0.65rem !important;
+  font-size: 3.5rem !important;
+  color: var(--white) !important;
+}
+.social-icon {
+  user-select: none !important;
+  font-size: 2.5rem !important;
+  color: var(--white) !important;
+}
+.small-icon {
+  margin: 0 0.65rem !important;
+  font-size: 2rem !important;
+  color: var(--white) !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    links                                   */
+/* -------------------------------------------------------------------------- */
+a {
+  &,
+  &:link,
+  &:visited {
+    text-decoration: none !important;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   inputs                                   */
+/* -------------------------------------------------------------------------- */
+.input,
+.Textarea {
+  width: 100%;
+  font-weight: 500;
+  font-size: 1.7rem;
+  color: var(--black-two);
+  background-color: var(--white);
+  border: solid 0.2rem var(--blue);
+  border-radius: 0.6rem;
+  outline-style: none;
+  resize: none;
+
+  &::placeholder {
+    font-size: 1.8rem;
+    color: var(--dark-gray);
+  }
+}
+.input {
+  height: 4.25rem;
+  padding: 0 1.5rem;
+}
+.Textarea {
+  height: 17.5rem;
+  padding: 1rem 1.5rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  errors                                    */
+/* -------------------------------------------------------------------------- */
+.invalid-input {
+  border: solid 0.2rem var(--danger) !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  buttons                                   */
+/* -------------------------------------------------------------------------- */
+.button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.6rem;
+  padding: 1rem 4rem;
+  border-radius: 1rem;
+  transition: all 0.25s ease;
+  background-color: var(--blue);
+  color: var(--white);
+
+  &:focus {
+    outline: none;
+  }
+  &:not(:disabled):hover {
+    transform: translateY(-0.35rem);
+    box-shadow: 0 0.8rem 1rem var(--black);
+  }
+
+  &:disabled {
+    cursor: default;
+    color: var(--black-two);
+    background-color: var(--gray);
+  }
+}

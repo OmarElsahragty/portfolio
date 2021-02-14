@@ -1,0 +1,21 @@
+.imageFullPreview {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.container {
+  outline: none;
+}
+
+.image {
+  flex: 0 1 100%;
+  display: flex;
+  justify-content: center;
+}
+.image > img {
+  max-width: 65vw;
+  max-height: 65vh;
+}

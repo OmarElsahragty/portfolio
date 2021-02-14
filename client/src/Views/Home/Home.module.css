@@ -1,0 +1,10 @@
+.home {
+  width: 100%;
+  position: relative;
+}
+
+.wallpaper {
+  z-index: -1;
+  height: 50vh !important;
+  border-bottom: 0.2rem solid var(--white);
+}

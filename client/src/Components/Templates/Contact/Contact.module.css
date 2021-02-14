@@ -1,0 +1,13 @@
+.contact {
+  width: 90%;
+  margin: 0 auto;
+  height: 50rem;
+}
+
+.envelope {
+  height: 20rem;
+  max-width: 100%;
+  fill: var(--blue);
+  position: relative;
+  top: 1rem;
+}

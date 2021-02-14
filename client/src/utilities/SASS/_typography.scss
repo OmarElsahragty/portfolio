@@ -1,0 +1,21 @@
+/* -------------------------------------------------------------------------- */
+/*                                  Fonts                                     */
+/* -------------------------------------------------------------------------- */
+// @font-face {
+//   font-family: "STC-Bold";
+//   src: url("../../assets/fonts/STC-Bold.ttf") format("truetype");
+// }
+// @font-face {
+//   font-family: "STC-Regular";
+//   src: url("../../assets/fonts/STC-Regular.ttf") format("truetype");
+// }
+// @font-face {
+//   font-family: "Droid-Naskh-Regular";
+//   src: url("../../assets/fonts/Droid-Naskh-Regular.ttf") format("truetype");
+// }
+
+body {
+  // font-family: "Droid-Naskh-Regular";
+  font-size: $default_font-size !important;
+  line-height: 1.5;
+}

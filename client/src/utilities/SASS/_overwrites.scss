@@ -1,0 +1,71 @@
+/* -------------------------------------------------------------------------- */
+/*                                material-ui                                 */
+/* -------------------------------------------------------------------------- */
+.MuiTooltip-tooltip {
+  font-size: 1rem !important;
+  margin-top: 0.5rem !important;
+}
+
+.MuiTab-wrapper {
+  font-size: 1.6rem !important;
+  user-select: none !important;
+}
+
+.MuiAlert-root {
+  align-items: center !important;
+}
+.MuiAlert-icon {
+  font-size: 3rem !important;
+}
+.MuiAlert-message {
+  font-size: 1.5rem !important;
+}
+.MuiAlert-action .MuiButtonBase-root svg {
+  font-size: 1.6rem !important;
+}
+
+.MuiTypography-h1,
+.MuiTypography-h2,
+.MuiTypography-h3,
+.MuiTypography-h4,
+.MuiTypography-h5,
+.MuiTypography-caption {
+  cursor: default !important;
+  user-select: none !important;
+  padding: 1.6rem 0 !important;
+}
+.MuiTypography-h3,
+.MuiTypography-h4,
+.MuiTypography-h5,
+.MuiTypography-h6,
+.MuiTypography-caption {
+  font-weight: 500 !important;
+  padding: 1.6rem 0 !important;
+}
+
+.MuiTypography-h1 {
+  font-size: 2.8rem !important;
+  font-weight: 700 !important;
+}
+.MuiTypography-h2 {
+  padding: 5rem 0 !important;
+  font-weight: 600 !important;
+  font-size: 3.75rem !important;
+  text-decoration: underline !important;
+}
+.MuiTypography-h3 {
+  font-size: 3rem !important;
+}
+.MuiTypography-h4 {
+  font-size: 2rem !important;
+}
+.MuiTypography-h5 {
+  font-size: 1.6rem !important;
+}
+.MuiTypography-h6 {
+  cursor: pointer !important;
+  font-size: 1.6rem !important;
+}
+.MuiTypography-caption {
+  font-size: 1.5rem !important;
+}

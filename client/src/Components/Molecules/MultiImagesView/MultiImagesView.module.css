@@ -1,0 +1,20 @@
+.actions {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.text {
+  font-size: 1.6rem !important;
+  mix-blend-mode: difference;
+}
+
+.chevronIcon {
+  font-size: 2.5rem !important;
+  mix-blend-mode: difference;
+}
+
+.chevronIconDisabled {
+  color: var(--secondary-color) !important;
+}

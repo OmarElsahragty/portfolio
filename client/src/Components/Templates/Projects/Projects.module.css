@@ -1,0 +1,42 @@
+.projects {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.item {
+  padding-bottom: 5rem;
+}
+
+.images {
+  width: 50%;
+  border: 0.1rem solid var(--white);
+}
+
+.info {
+  width: 50%;
+  padding: 1.25rem 0 1rem 3rem;
+}
+.description {
+  text-overflow: clip;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+.presentation {
+  position: absolute;
+  right: 0;
+  top: -1.5rem;
+}
+.nonPhoneToggle {
+  display: block;
+}
+.phoneToggle {
+  display: none;
+}
+@media only screen and (max-width: 37.5em) {
+  .nonPhoneToggle {
+    display: none !important;
+  }
+  .phoneToggle {
+    display: block !important;
+  }
+}

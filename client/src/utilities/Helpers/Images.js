@@ -1,0 +1,53 @@
+export const Images = {
+  wallpaper: "https://i.ibb.co/WVRvNdq/wallpaper.jpg",
+  parallax: "https://i.ibb.co/7n7gk5m/parallax.jpg",
+  avatarOne: "https://i.ibb.co/mtnZW8d/avatar-1.jpg",
+  avatarTwo: "https://i.ibb.co/yyBv6yY/Avatar-2.jpg",
+  avatarThree: "https://i.ibb.co/20rFNM8/Avatar-3.jpg",
+
+  publicTransportationSystem: [
+    "https://i.ibb.co/3RfvP1g/1.jpg",
+    "https://i.ibb.co/5jjxn4s/2.jpg",
+    "https://i.ibb.co/S31d5M9/3.jpg",
+    "https://i.ibb.co/YhjmKKk/4.jpg",
+    "https://i.ibb.co/n7gW1KX/5.jpg",
+    "https://i.ibb.co/1bfzgnL/6.jpg",
+    "https://i.ibb.co/GJn2X7n/7.jpg",
+    "https://i.ibb.co/PgK0L3p/8.jpg",
+  ],
+
+  RestaurantsSystem: [
+    "https://i.ibb.co/MRThyL3/1.jpg",
+    "https://i.ibb.co/3WZfrt7/2.jpg",
+    "https://i.ibb.co/ftVxY9R/3.jpg",
+    "https://i.ibb.co/0YPTz6J/4.jpg",
+    "https://i.ibb.co/6sXBx9D/5.jpg",
+    "https://i.ibb.co/KFKhBCT/6.jpg",
+    "https://i.ibb.co/RYCp2Jt/7.jpg",
+    "https://i.ibb.co/Q9HzfpK/8.jpg",
+  ],
+
+  DokkanElOsra: [
+    "https://i.ibb.co/JtKz2CW/1.jpg",
+    "https://i.ibb.co/mCVSCRP/2.jpg",
+    "https://i.ibb.co/pJjrvYB/3.jpg",
+    "https://i.ibb.co/23c7M7Z/4.jpg",
+    "https://i.ibb.co/YhjmhjG/5.jpg",
+    "https://i.ibb.co/K51pKpk/6.jpg",
+    "https://i.ibb.co/0GXvLJc/7.jpg",
+    "https://i.ibb.co/x3Y9TDW/8.jpg",
+    "https://i.ibb.co/G3m6tFr/9.jpg",
+    "https://i.ibb.co/7p4ySrv/10.jpg",
+    "https://i.ibb.co/bPwgnWt/11.jpg",
+    "https://i.ibb.co/pbDkz2S/12.jpg",
+    "https://i.ibb.co/C0F3hJT/13.jpg",
+    "https://i.ibb.co/cxBfPSs/14.jpg",
+    "https://i.ibb.co/XY64PJL/15.jpg",
+    "https://i.ibb.co/PxZW0TL/16.jpg",
+    "https://i.ibb.co/vsGZgvV/17.jpg",
+    "https://i.ibb.co/QcLL5xW/18.jpg",
+    "https://i.ibb.co/qydXw11/19.jpg",
+    "https://i.ibb.co/x3HWQtJ/20.jpg",
+  ],
+};
+export default Images;

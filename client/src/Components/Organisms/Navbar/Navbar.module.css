@@ -1,0 +1,33 @@
+.navbar {
+  z-index: 1;
+  width: 100%;
+  position: fixed;
+  background-color: var(--primary-color);
+}
+.container {
+  width: 80% !important;
+  margin: 0 auto !important;
+}
+
+.languageIcon {
+  user-select: none !important;
+  font-size: 1.5rem !important;
+  color: var(--white) !important;
+}
+.MenuPaper {
+  padding: 0 !important;
+}
+.MenuItemText {
+  font-size: 1.3rem !important;
+}
+
+.item {
+  user-select: none !important;
+  font-size: 1.6rem !important;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .toggle {
+    display: none !important;
+  }
+}
