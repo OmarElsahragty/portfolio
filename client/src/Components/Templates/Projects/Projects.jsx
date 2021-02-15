@@ -68,33 +68,33 @@ const Projects = () => {
                 </Typography>
               </Grid>
 
-              <Grid item className={styles.nonPhoneToggle}>
+              <Grid item>
                 <Thumbnails
                   src={Project.Clients}
                   style={{ height: "5rem" }}
-                  className="py-32"
+                  className="mt-15"
                 />
               </Grid>
-
               <Grid item className={styles.nonPhoneToggle}>
-                <Thumbnails
-                  src={Project.Technologies}
-                  style={{ height: "5rem" }}
-                />
+                <Grid item>
+                  <Thumbnails
+                    src={Project.Technologies}
+                    style={{ height: "5rem" }}
+                    className="mt-30"
+                  />
+                </Grid>
               </Grid>
             </Grid>
           </Grid>
 
           <Grid item className={styles.phoneToggle}>
-            <Thumbnails
-              src={Project.Clients}
-              style={{ height: "5rem" }}
-              className="py-32"
-            />
-          </Grid>
-
-          <Grid item className={styles.phoneToggle}>
-            <Thumbnails src={Project.Technologies} style={{ height: "5rem" }} />
+            <Grid item>
+              <Thumbnails
+                src={Project.Technologies}
+                style={{ height: "5rem" }}
+                className="mt-30"
+              />
+            </Grid>
           </Grid>
         </Grid>
       ))}

@@ -29,10 +29,6 @@ const Contact = () => {
       .catch((error) => {
         // eslint-disable-next-line no-console
         console.log(error.response.data);
-        // eslint-disable-next-line no-console
-        console.log(error.response.status);
-        // eslint-disable-next-line no-console
-        console.log(error.response.headers);
         setSnackbarState("error");
       });
   };

@@ -50,14 +50,15 @@
 
   "Projects": "Projects",
   "Presentation": "Presentation",
+  "Clients": "Clients",
 
   "Dokkan-El-Osra": "Dokkan El-Osra",
   "Dokkan-El-Osra-Description": "Dashboard Front-End, for a multi-vendor eCommerce in Libya",
 
-  "Public-Transportation-System": "Public transportation system",
+  "Public-Transportation-System": "Public Transportation System",
   "Public-Transportation-System-Description": "Real-time application monitoring each vehicle location to improve the traffic and making transportation smarter by providing each one with a real-time transportation response",
 
-  "Restaurants-ERP-System": "Restaurants enterprise resource planning system",
+  "Restaurants-ERP-System": "Restaurants ERP System",
   "Restaurants-ERP-System-Description": "An enterprise resource planning platform for restaurants designed to improve resources consumption and the supply chain by track resources",
 
   "Picasso": "Picasso",

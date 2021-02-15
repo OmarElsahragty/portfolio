@@ -59,8 +59,8 @@ const Data = {
         IconsSrc.Reactjs,
         IconsSrc.Firebase,
         IconsSrc.GoogleMaps,
-        IconsSrc.NodejsDetailed,
-        IconsSrc.GoogleCloudDetailed,
+        IconsSrc.Nodejs,
+        IconsSrc.GoogleCloud,
       ],
       Presentation:
         "https://www.dropbox.com/s/jwzjkw7x1btfx2d/Public%20Transportation%20System.pptx?dl=0",
@@ -70,11 +70,7 @@ const Data = {
       Name: "Restaurants-ERP-System", // Translated Value in translation.json
       Description: "Restaurants-ERP-System-Description", // Translated Value in translation.json
       Images: ImagesSrc.RestaurantsSystem,
-      Technologies: [
-        IconsSrc.ReactjsRedux,
-        IconsSrc.MongoDB,
-        IconsSrc.NodejsDetailed,
-      ],
+      Technologies: [IconsSrc.ReactjsRedux, IconsSrc.MongoDB, IconsSrc.Nodejs],
       Clients: [IconsSrc.Picasso],
     },
   ],

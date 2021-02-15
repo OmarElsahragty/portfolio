@@ -4,10 +4,6 @@ export const Icons = {
     src: "https://i.ibb.co/VgwtNTP/Google-Cloud.png",
     title: "Google-Cloud",
   },
-  GoogleCloudDetailed: {
-    src: "https://i.ibb.co/zG4Yn6S/Google-Cloud-Detailed.png",
-    title: "Google-Cloud",
-  },
   GoogleMaps: {
     src: "https://i.ibb.co/sCCjVvK/Google-Maps.png",
     title: "Google-Maps",
@@ -15,10 +11,6 @@ export const Icons = {
   Firebase: { src: "https://i.ibb.co/ypKVP9K/Firebase.png", title: "Firebase" },
   MongoDB: { src: "https://i.ibb.co/QMpgGK1/MongoDB.png", title: "MongoDB" },
   Nodejs: { src: "https://i.ibb.co/5jfft2q/Nodejs.png", title: "Nodejs" },
-  NodejsDetailed: {
-    src: "https://i.ibb.co/44dbzBc/Nodejs-Detailed.png",
-    title: "Nodejs",
-  },
   Reactjs: { src: "https://i.ibb.co/mBJNMcY/Reactjs.png", title: "Reactjs" },
   Redux: { src: "https://i.ibb.co/286bpg3/Redux.png", title: "Redux" },
   ReactjsRedux: {

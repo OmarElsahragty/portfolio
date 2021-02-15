@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import i18next from "i18next";
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import {
   Grid,
   Typography,
@@ -91,7 +91,7 @@ const Navbar = () => {
             </Grid>
           </LabeledAvatar>
         </Grid>
-        <Grid item className={styles.toggle}>
+        {/* <Grid item className={styles.toggle}>
           <Grid container alignItems="center" justify="space-between">
             <Link to="#Home">
               <Typography color="textPrimary" classes={{ root: styles.item }}>
@@ -123,7 +123,7 @@ const Navbar = () => {
               </Typography>
             </Link>
           </Grid>
-        </Grid>
+        </Grid> */}
         <Grid item>
           <Grid container alignItems="center" justify="space-between">
             <Tooltip title="Facebook">
