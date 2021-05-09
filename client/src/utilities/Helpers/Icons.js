@@ -29,5 +29,7 @@ export const Icons = {
 
   PUA: { src: "https://i.ibb.co/MBY29g3/pua.png", title: "PUA" },
   KTH: { src: "https://i.ibb.co/TwQwF9v/kth.png", title: "KTH" },
+
+  INOVA: { src: "https://i.ibb.co/f2j68nD/Inova.png", title: "Inova" },
 };
 export default Icons;

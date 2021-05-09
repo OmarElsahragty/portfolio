@@ -45,6 +45,13 @@ const Data = {
 
   Projects: [
     {
+      Name: "Trendo", // Translated Value in translation.json
+      Description: "Trendo-Description", // Translated Value in translation.json
+      Images: ImagesSrc.Trendo,
+      Technologies: [IconsSrc.Reactjs, IconsSrc.Firebase],
+      Clients: [IconsSrc.INOVA],
+    },
+    {
       Name: "Dokkan-El-Osra", // Translated Value in translation.json
       Description: "Dokkan-El-Osra-Description", // Translated Value in translation.json
       Images: ImagesSrc.DokkanElOsra,

@@ -49,5 +49,27 @@ export const Images = {
     "https://i.ibb.co/qydXw11/19.jpg",
     "https://i.ibb.co/x3HWQtJ/20.jpg",
   ],
+
+  Trendo: [
+    "https://i.ibb.co/Xs3Dj1T/1.png",
+    "https://i.ibb.co/Y20gRSW/2.png",
+    "https://i.ibb.co/wRhLkmZ/3.png",
+    "https://i.ibb.co/DkYXb5t/4.png",
+    "https://i.ibb.co/JCpS49L/5.png",
+    "https://i.ibb.co/brrnZdS/6.png",
+    "https://i.ibb.co/2S94PGd/7.png",
+    "https://i.ibb.co/bRdswjW/8.png",
+    "https://i.ibb.co/PgNnrdv/9.png",
+    "https://i.ibb.co/19Wfs0g/10.png",
+    "https://i.ibb.co/9ZSFd5J/11.png",
+    "https://i.ibb.co/XkNzZX8/12.png",
+    "https://i.ibb.co/bbM4BCF/13.png",
+    "https://i.ibb.co/SPSjG3y/14.png",
+    "https://i.ibb.co/jRGB1hL/15.png",
+    "https://i.ibb.co/hRCkyKj/16.png",
+    "https://i.ibb.co/wL3HChY/17.png",
+    "https://i.ibb.co/xX3JC4F/18.png",
+    "https://i.ibb.co/GPQPgJT/19.png",
+  ],
 };
 export default Images;
