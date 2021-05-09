@@ -59,7 +59,7 @@ desktop.ini
 /coverage
 
 # production
-# build/
+build/
 
 # cache
 .eslintcache
