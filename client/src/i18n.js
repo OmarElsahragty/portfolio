@@ -3,8 +3,8 @@ import Backend from "i18next-xhr-backend";
 import LanguageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from "react-i18next";
 
-const fallbackLng = ["en"];
-const availableLanguages = ["ar", "en"];
+const fallbackLng = ["EN"];
+const availableLanguages = ["AR", "EN"];
 
 const options = {
   order: ["localStorage", "navigator", "htmlTag", "path", "subdomain"],

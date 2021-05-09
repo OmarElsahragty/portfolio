@@ -1,0 +1,5 @@
+{
+  "success": "Success",
+  "server-error": "Its not you, its us we are working on this now :(",
+  "send-email-error": "Failed, Couldn't send the email."
+}

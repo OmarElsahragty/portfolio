@@ -1,10 +1,25 @@
 import axios from "axios";
+import { Mails } from "./Calls";
 
-const Caller = axios.create({
-  baseURL: "/",
-  headers: {
-    "content-type": "application/json",
-  },
-});
+class _CoreAPI {
+  constructor() {
+    this.caller = axios.create({
+      baseURL: "/",
+      headers: {
+        "content-type": "application/json",
+      },
+    });
 
-export default Caller;
+    this.Mails = new Mails(this.caller);
+  }
+
+  addCommonHeader(key, val) {
+    this.caller.defaults.headers.common[key] = val;
+  }
+
+  removeCommonHeader(key) {
+    this.caller.defaults.headers.common[key] = null;
+  }
+}
+
+export default new _CoreAPI();

@@ -11,6 +11,8 @@ import {
   MenuItem,
 } from "@material-ui/core";
 import { Language, Facebook, LinkedIn } from "@material-ui/icons";
+
+import { Caller } from "../../../API";
 import { ImagesSrc } from "../../../utilities/Helpers";
 import { LabeledAvatar } from "../../Molecules";
 import Data from "../../../utilities/Data";
@@ -64,7 +66,9 @@ const Navbar = () => {
                 <MenuItem
                   onClick={() => {
                     setAnchorEl(null);
-                    i18next.changeLanguage("ar");
+                    i18next.changeLanguage("AR");
+                    Caller.removeCommonHeader("accept-language");
+                    Caller.addCommonHeader("accept-language", "AR");
                   }}
                 >
                   <Typography
@@ -75,9 +79,11 @@ const Navbar = () => {
                   </Typography>
                 </MenuItem>
                 <MenuItem
-                  onClick={() => {
+                  onClick={async () => {
                     setAnchorEl(null);
-                    i18next.changeLanguage("en");
+                    i18next.changeLanguage("EN");
+                    Caller.removeCommonHeader("accept-language");
+                    Caller.addCommonHeader("accept-language", "EN");
                   }}
                 >
                   <Typography

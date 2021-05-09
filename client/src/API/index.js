@@ -6,4 +6,4 @@ export { default as Caller } from "./Caller";
 /* -------------------------------------------------------------------------- */
 /*                                    URLs                                    */
 /* -------------------------------------------------------------------------- */
-export { default as URL } from "./URL";
+export { default as URL } from "./URLs";

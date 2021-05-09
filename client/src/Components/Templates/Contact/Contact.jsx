@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { Grid, Typography, Snackbar, Tooltip } from "@material-ui/core";
 import { Alert } from "@material-ui/lab";
 
-import { Caller, URL } from "../../../API";
+import { Caller } from "../../../API";
 
 import styles from "./Contact.module.css";
 
@@ -17,8 +17,8 @@ const Contact = () => {
 
   const { t } = useTranslation();
 
-  const SendEmail = () => {
-    Caller.post(URL.SEND_MAIL, { name, email, message })
+  const sendMail = () => {
+    Caller.Mails({ name, email, message })
       .then(() => {
         setName("");
         setEmail("");
@@ -27,8 +27,7 @@ const Contact = () => {
         setSnackbarState("success");
       })
       .catch((error) => {
-        // eslint-disable-next-line no-console
-        console.log(error.response.data);
+        console.error(error.response.data);
         setSnackbarState("error");
       });
   };
@@ -105,7 +104,7 @@ const Contact = () => {
             <button
               type="button"
               className="button"
-              onClick={SendEmail}
+              onClick={sendMail}
               disabled={!name || !email || !emailValidation || !message}
             >
               {t("Submit")}
