@@ -1,0 +1,77 @@
+{
+  "Language": "Language",
+  "Arabic": "Arabic",
+  "English": "English",
+
+  "Show": "Show",
+
+  "Next": "Next",
+  "Previous": "Previous",
+
+  "Submit": "Submit",
+
+  "Home": "Home",
+  "Services": "Services",
+  "Contact": "Contact",
+
+  "About-Me": "About Me",
+
+  "Personal": "Personal",
+  "Name": "Omar Mostafa Elsahragty",
+  "Personal-Bio": "I'm an Egyptian computer engineer, I have done a lot of projects. I am interested in web development and I am prepared with different courses to successfully develop my technical skills in this field.",
+  "Birthday": "Birthday",
+  "Email": "Email",
+  "CV": "CV",
+
+  "Education": "Education",
+  "Education-Bio": "I had graduated from Pharos University in Alexandria, KTH Royal Institute of Technology, Computer Engineering dual degree (2015-2020), with a 3.14 GPA.",
+
+  "PUA": "Pharos University in Alexandria",
+  "KTH": "KTH Royal Institute of Technology",
+
+  "Certificates": "Certificates",
+  "Usable-Security": "Usable Security by the University of Maryland, May 17, 2019",
+  "Software-Security": "Software Security by the University of Maryland, June 19, 2019",
+  "Cryptography": "Cryptography by the University of Maryland, June 19, 2019",
+  "Hardware-Security": "Hardware Security by University of Maryland, August 30, 2019",
+
+  "Languages": "Languages",
+  "Native": "Native",
+  "Excellent": "Excellent",
+
+  "Get-In-Touch": "Get In Touch",
+  "Name-Placeholder": "Your Name (required)",
+  "Email-Placeholder": "Your Email (required)",
+  "Message-Placeholder": "Please write your message (required)",
+
+  "Send-Email": "Send me an email",
+  "Reached-Me": "Thank you for reaching out to me",
+  "Error": "Something went wrong, please try again later",
+
+  "Projects": "Projects",
+  "Presentation": "Presentation",
+  "Clients": "Clients",
+
+  "Trendo": "Trendo",
+  "Trendo-Description": "Social media for the stock market in KSA",
+
+  "Dokkan-El-Osra": "Dokkan El-Osra",
+  "Dokkan-El-Osra-Description": "Dashboard Front-End, for a multi-vendor eCommerce in Libya",
+
+  "Public-Transportation-System": "Public Transportation System",
+  "Public-Transportation-System-Description": "Real-time application monitoring each vehicle location to improve the traffic and making transportation smarter by providing each one with a real-time transportation response",
+
+  "Restaurants-ERP-System": "Restaurants ERP System",
+  "Restaurants-ERP-System-Description": "An enterprise resource planning platform for restaurants designed to improve resources consumption and the supply chain by track resources",
+
+  "Picasso": "Picasso",
+  "Reactjs-Redux": "Reactjs with Redux",
+  "Redux": "Redux",
+  "Reactjs": "Reactjs",
+  "Nodejs": "Nodejs",
+  "MongoDB": "MongoDB",
+  "Firebase": "Firebase",
+  "Google-Maps": "Google Maps",
+  "Google-Cloud": "Google Cloud",
+  "SQL": "SQL"
+}
