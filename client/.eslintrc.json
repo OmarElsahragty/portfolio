@@ -10,7 +10,7 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "extends": ["react-app", "airbnb"],
+  "extends": ["react-app"],
   "rules": {
     "react-hooks/exhaustive-deps": "off",
     "implicit-arrow-linebreak": "off",
@@ -57,15 +57,7 @@
         "ignoreTemplateLiterals": true
       }
     ],
-    "import/extensions": [
-      "error",
-      "ignorePackages",
-      {
-        "js": "never",
-        "jsx": "never",
-        "ts": "never",
-        "tsx": "never"
-      }
-    ]
+    "import/extensions": "off",
+    "import/no-anonymous-default-export": "off"
   }
 }
