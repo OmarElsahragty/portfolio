@@ -8,7 +8,7 @@
   "scripts": {
     "start": "node -r esm .",
     "dev": "nodemon -r esm .",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false cd client && npm i && npm run build"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
