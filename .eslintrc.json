@@ -1,28 +1,20 @@
 {
   "env": {
-    "browser": true,
+    "node": true,
     "es2021": true
   },
-  "extends": ["react-app", "airbnb-base"],
+  "extends": ["airbnb-base"],
   "parserOptions": {
     "ecmaVersion": 12,
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "jsx": true
-    }
+    "sourceType": "module"
+  },
+  "plugins": ["babel"],
+  "parser": "babel-eslint",
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
   },
   "rules": {
-    "jsx-a11y/label-has-associated-control": "off",
-    "react/require-default-props": 0,
-    "react/jsx-props-no-spreading": "off",
-    "react/jsx-filename-extension": [
-      1,
-      {
-        "extensions": [".js", ".jsx"]
-      }
-    ],
-    "react/destructuring-assignment": 0,
-    "import/prefer-default-export": "off",
     "no-invalid-this": 0,
     "babel/no-invalid-this": 1,
     "no-use-before-define": [
@@ -36,7 +28,7 @@
     "no-console": [
       "error",
       {
-        "allow": ["error"]
+        "allow": ["error", "success"]
       }
     ],
     "nonblock-statement-body-position": ["error", "any"],
@@ -48,6 +40,7 @@
       }
     ],
     "comma-dangle": ["error", "only-multiline"],
+    "import/prefer-default-export": "off",
     "func-names": ["error", "never"],
     "array-callback-return": "off",
     "import/named": "off",
