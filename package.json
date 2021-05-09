@@ -7,8 +7,7 @@
   "description": "Sahragty's Portfolio",
   "scripts": {
     "start": "node -r esm .",
-    "dev": "nodemon -r esm .",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "dev": "nodemon -r esm ."
   },
   "dependencies": {
     "body-parser": "^1.19.0",
