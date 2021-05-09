@@ -1,28 +1,10 @@
 {
-  "name": "portfolio",
-  "version": "0.1.0",
-  "license": "ISC",
+  "name": "portfolio-client",
   "private": false,
-  "dependencies": {
-    "@material-ui/core": "^4.11.3",
-    "@material-ui/icons": "^4.11.2",
-    "@material-ui/lab": "^4.0.0-alpha.57",
-    "axios": "^0.21.1",
-    "i18next": "^19.8.7",
-    "i18next-browser-languagedetector": "^6.0.1",
-    "i18next-http-backend": "^1.1.0",
-    "i18next-xhr-backend": "^3.2.2",
-    "node-sass": "4.14.1",
-    "prop-types": "^15.7.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-i18next": "^11.8.5",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.1",
-    "react-swipeable-views": "^0.13.9",
-    "styled-components": "^5.2.1",
-    "web-vitals": "^0.2.4"
-  },
+  "license": "ISC",
+  "version": "1.0.0",
+  "author": "Sahragty",
+  "description": "Sahragty's Portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -46,14 +28,29 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "eslint": "^7.18.0",
-    "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-prettier": "^7.2.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.22.0",
-    "eslint-plugin-react-hooks": "^4.2.0"
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "axios": "^0.21.1",
+    "i18next": "^19.8.7",
+    "i18next-browser-languagedetector": "^6.0.1",
+    "i18next-http-backend": "^1.1.0",
+    "i18next-xhr-backend": "^3.2.2",
+    "node-sass": "4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-i18next": "^11.8.5",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-swipeable-views": "^0.13.9",
+    "styled-components": "^5.2.1",
+    "web-vitals": "^0.2.4"
   },
-  "proxy": "http://localhost:4000/"
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
 }

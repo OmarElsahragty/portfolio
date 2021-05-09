@@ -10,7 +10,6 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": ["react"],
   "rules": {
     "jsx-a11y/label-has-associated-control": "off",
     "react/require-default-props": 0,
@@ -86,10 +85,5 @@
       }
     ]
   },
-  "extends": [
-    "plugin:react/recommended",
-    "airbnb",
-    "prettier",
-    "prettier/react"
-  ]
+  "extends": ["react-app", "airbnb"]
 }
