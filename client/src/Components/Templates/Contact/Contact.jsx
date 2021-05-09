@@ -18,7 +18,7 @@ const Contact = () => {
   const { t } = useTranslation();
 
   const sendMail = () => {
-    Caller.Mails({ name, email, message })
+    Caller.Mails.sendMail({ name, email, message })
       .then(() => {
         setName("");
         setEmail("");
@@ -26,8 +26,7 @@ const Contact = () => {
         setEmailValidation(true);
         setSnackbarState("success");
       })
-      .catch((error) => {
-        console.error(error.response.data);
+      .catch(() => {
         setSnackbarState("error");
       });
   };

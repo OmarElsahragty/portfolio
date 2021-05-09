@@ -7,20 +7,26 @@ class BaseController {
     if (err) {
       if (err.isAppError) {
         next(Errors.http.badRequest(err.error));
-        return null;
+        return undefined;
       } else {
         next(err.error);
-        return null;
+        return undefined;
       }
     }
     return data;
   }
 
   okRes(req, res, data, statusCode = 200) {
-    return res.status(statusCode).json({
-      message: req.t(LocaleKeys.SUCCESS),
-      data,
-    });
+    if (data) {
+      return res.status(statusCode).json({
+        message: req.t(LocaleKeys.SUCCESS),
+        data,
+      });
+    } else {
+      return res.status(statusCode).json({
+        message: req.t(LocaleKeys.SUCCESS),
+      });
+    }
   }
 }
 

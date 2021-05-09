@@ -1,6 +1,7 @@
+import util from "util";
 import nodemailer from "nodemailer";
-import { Protocols } from "../core/helpers";
 import LocaleKeys from "../core/locales";
+import { Protocols } from "../core/helpers";
 import Config from "../config";
 
 export const sendMail = ({ name, email, message }) => {
@@ -12,8 +13,10 @@ export const sendMail = ({ name, email, message }) => {
     },
   });
 
-  transporter.sendMail(
-    {
+  transporter.sendMail = util.promisify(transporter.sendMail);
+
+  return transporter
+    .sendMail({
       from: Config.SMTP.User,
       to: "omar_elsahragty@hotmail.com",
       subject: "Sahragty's Portfolio ✔",
@@ -23,13 +26,7 @@ export const sendMail = ({ name, email, message }) => {
     contact: ${email}
     
     message: ${message}`,
-    },
-    (err) => {
-      if (err) {
-        return Protocols.appResponse({ err: LocaleKeys.SEND_EMAIL_ERROR });
-      } else {
-        return Protocols.appResponse({ data: null });
-      }
-    }
-  );
+    })
+    .then(() => Protocols.appResponse({ data: null }))
+    .catch(() => Protocols.appResponse({ err: LocaleKeys.SEND_EMAIL_ERROR }));
 };

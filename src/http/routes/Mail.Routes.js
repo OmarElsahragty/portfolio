@@ -6,6 +6,6 @@ import { mailValidator } from "../../core/validators";
 
 const router = express.Router();
 
-router.post("/mail", validate(mailValidator), mailController.send);
+router.post("/mail", validate(mailValidator.sendMail), mailController.send);
 
 export default router;
