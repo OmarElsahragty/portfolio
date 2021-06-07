@@ -1,6 +1,7 @@
 import { error, success } from "consola";
 import * as Sentry from "@sentry/node";
 import "@sentry/tracing";
+import Config from "./src/config";
 import main from "./main";
 
 console.success = (message) => {
@@ -18,7 +19,7 @@ console.error = (message) => {
 };
 
 Sentry.init({
-  dsn: "https://77d00d9481ca410ab9aa57a61af68809@o783506.ingest.sentry.io/5805285",
+  dsn: Config.SentryDNS,
   tracesSampleRate: 1.0,
 });
 
