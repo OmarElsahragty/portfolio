@@ -11,6 +11,8 @@
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "dependencies": {
+    "@sentry/node": "^6.5.1",
+    "@sentry/tracing": "^6.5.1",
     "body-parser": "^1.19.0",
     "boom": "^7.3.0",
     "consola": "^2.15.3",
