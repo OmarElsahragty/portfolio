@@ -6,7 +6,6 @@ import { ThemeProvider, CssBaseline } from "@material-ui/core";
 import Theme from "./utilities/Theme";
 
 import "./i18n";
-import reportWebVitals from "./reportWebVitals";
 
 import App from "./App";
 
@@ -21,5 +20,3 @@ ReactDOM.render(
   </BrowserRouter>,
   document.getElementById("root")
 );
-
-reportWebVitals();
