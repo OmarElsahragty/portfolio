@@ -1,10 +1,11 @@
 import axios from "axios";
+import { BASE_URL } from "./URLs";
 import { Mails } from "./Calls";
 
 class _CoreAPI {
   constructor() {
     this.caller = axios.create({
-      baseURL: "/",
+      baseURL: BASE_URL,
       headers: {
         "content-type": "application/json",
       },
