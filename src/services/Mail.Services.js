@@ -28,5 +28,8 @@ export const sendMail = ({ name, email, message }) => {
     message: ${message}`,
     })
     .then(() => Protocols.appResponse({ data: null }))
-    .catch(() => Protocols.appResponse({ err: LocaleKeys.SEND_EMAIL_ERROR }));
+    .catch((err) => {
+      console.error(`SENDING MAIL ERROR : ${err.message}`);
+      Protocols.appResponse({ err: LocaleKeys.SEND_EMAIL_ERROR });
+    });
 };
