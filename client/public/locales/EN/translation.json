@@ -21,7 +21,7 @@
   "Personal-Bio": "I'm an Egyptian computer engineer, I have done a lot of projects. I am interested in web development and I am prepared with different courses to successfully develop my technical skills in this field.",
   "Birthday": "Birthday",
   "Email": "Email",
-  "CV": "CV",
+  "Resume": "Resume",
 
   "Education": "Education",
   "Education-Bio": "I had graduated from Pharos University in Alexandria, KTH Royal Institute of Technology, Computer Engineering dual degree (2015-2020), with a 3.14 GPA.",
@@ -65,9 +65,9 @@
   "Restaurants-ERP-System-Description": "An enterprise resource planning platform for restaurants designed to improve resources consumption and the supply chain by track resources",
 
   "Picasso": "Picasso",
-  "Reactjs-Redux": "Reactjs with Redux",
+  "ReactJS-Redux": "ReactJS with Redux",
   "Redux": "Redux",
-  "Reactjs": "Reactjs",
+  "ReactJS": "ReactJS",
   "Nodejs": "Nodejs",
   "MongoDB": "MongoDB",
   "Firebase": "Firebase",

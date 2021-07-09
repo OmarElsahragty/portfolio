@@ -11,11 +11,11 @@ export const Icons = {
   Firebase: { src: "https://i.ibb.co/ypKVP9K/Firebase.png", title: "Firebase" },
   MongoDB: { src: "https://i.ibb.co/QMpgGK1/MongoDB.png", title: "MongoDB" },
   Nodejs: { src: "https://i.ibb.co/5jfft2q/Nodejs.png", title: "Nodejs" },
-  Reactjs: { src: "https://i.ibb.co/mBJNMcY/Reactjs.png", title: "Reactjs" },
+  ReactJS: { src: "https://i.ibb.co/mBJNMcY/Reactjs.png", title: "ReactJS" },
   Redux: { src: "https://i.ibb.co/286bpg3/Redux.png", title: "Redux" },
   ReactjsRedux: {
     src: "https://i.ibb.co/M8Wn5Bd/Reactjs-Redux.png",
-    title: "Reactjs-Redux",
+    title: "ReactJS-Redux",
   },
 
   Picasso: {

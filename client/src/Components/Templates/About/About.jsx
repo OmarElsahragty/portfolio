@@ -135,14 +135,14 @@ const About = () => {
                 </Grid>
               </Grid>
 
-              <Grid item className={styles.CV}>
-                <a target="_blank" rel="noreferrer cv" href={Data.CV}>
+              <Grid item className={styles.Resume}>
+                <a target="_blank" rel="noreferrer resume" href={Data.Resume}>
                   <Grid item container wrap="nowrap" alignItems="center">
-                    <Tooltip title={t("CV")}>
+                    <Tooltip title={t("Resume")}>
                       <Description classes={{ root: "icon" }} />
                     </Tooltip>
                     <Typography variant="h6" align="center" color="textPrimary">
-                      {t("CV")}
+                      {t("Resume")}
                     </Typography>
                   </Grid>
                 </a>

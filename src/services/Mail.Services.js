@@ -7,6 +7,8 @@ import Config from "../config";
 export const sendMail = ({ name, email, message }) => {
   const transporter = nodemailer.createTransport({
     host: Config.SMTP.Host,
+    port: Config.SMTP.Port,
+    secure: true,
     auth: {
       user: Config.SMTP.User,
       pass: Config.SMTP.Password,

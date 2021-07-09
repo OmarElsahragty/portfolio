@@ -21,7 +21,7 @@
   "Personal-Bio": "أنا مهندس كمبيوتر مصري ، قمت بالعديد من المشاريع. أنا مهتم بتطوير الويب وأنا مستعد لدورات مختلفة لتطوير مهاراتي الفنية بنجاح في هذا المجال",
   "Birthday": "عيد الميلاد",
   "Email": "البريد الإلكتروني",
-  "CV": "السيرة الذاتية",
+  "Resume": "السيرة الذاتية",
 
   "Education": "التعليم",
   "Education-Bio": "تخرجت من جامعة فاروس بالإسكندرية ، المعهد الملكي للتكنولوجيا، هندسة الكمبيوتر بدرجة مزدوجة 2015-2020، بتقدير جيد جداً ",
@@ -66,9 +66,9 @@
 
   "Picasso": "بيكاسو",
 
-  "Reactjs-Redux": "Reactjs with Redux",
+  "ReactJS-Redux": "ReactJS with Redux",
   "Redux": "Redux",
-  "Reactjs": "Reactjs",
+  "ReactJS": "ReactJS",
   "Nodejs": "Nodejs",
   "MongoDB": "MongoDB",
   "Firebase": "Firebase",
