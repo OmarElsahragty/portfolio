@@ -218,7 +218,7 @@
 }
 
 @include respond(small-screen) {
-  // width < 600px ?
+  //? width < 600px ?
   .xs-pr-0 {
     padding-right: 0 !important;
   }

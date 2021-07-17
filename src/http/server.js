@@ -1,7 +1,6 @@
 import http from "http";
 import path from "path";
 import express from "express";
-import { success } from "consola";
 import { I18next, ErrorHandler } from "./middlewares";
 import { mailRoutes } from "./routes";
 
@@ -31,10 +30,7 @@ class Server {
 
   start() {
     this.server.listen(this.port, () => {
-      success({
-        badge: true,
-        message: `Server has started on port: ${this.port}`,
-      });
+      console.success(`Server has started on port: ${this.port}`);
     });
   }
 }

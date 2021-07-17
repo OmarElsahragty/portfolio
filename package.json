@@ -8,6 +8,7 @@
   "scripts": {
     "start": "node -r esm .",
     "dev": "nodemon -r esm .",
+    "client-build": "npm install --prefix client && npm run build --prefix client",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "dependencies": {
@@ -15,7 +16,6 @@
     "@sentry/tracing": "^6.5.1",
     "body-parser": "^1.19.0",
     "boom": "^7.3.0",
-    "consola": "^2.15.3",
     "dotenv": "^8.2.0",
     "esm": "^3.2.25",
     "express": "^4.17.1",
@@ -26,8 +26,8 @@
     "yup": "^0.32.9"
   },
   "devDependencies": {
-    "eslint": "^7.21.0",
     "babel-eslint": "^10.1.0",
+    "eslint": "^7.21.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-babel": "^5.3.1",
     "eslint-plugin-import": "^2.22.1"

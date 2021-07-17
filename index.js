@@ -1,21 +1,15 @@
-import { error, success } from "consola";
 import * as Sentry from "@sentry/node";
 import "@sentry/tracing";
 import Config from "./src/config";
 import main from "./main";
 
-console.success = (message) => {
-  success({
-    badge: true,
-    message,
-  });
-};
+/* eslint-disable no-console */
+
+console.success = (message) => console.log("✔️ ", message);
 
 console.error = (message) => {
-  error({
-    badge: true,
-    message,
-  });
+  console.log("❌ ", message);
+  console.trace();
 };
 
 Sentry.init({

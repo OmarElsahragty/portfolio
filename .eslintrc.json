@@ -28,7 +28,7 @@
     "no-console": [
       "error",
       {
-        "allow": ["error", "success"]
+        "allow": ["error", "success", "trace"]
       }
     ],
     "nonblock-statement-body-position": ["error", "any"],

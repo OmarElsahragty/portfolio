@@ -17,19 +17,19 @@ const Data = {
 
   Certificates: [
     {
-      name: "Hardware-Security", // Translated Value in translation.json
+      name: "Hardware-Security", //? Translated Value in translation.json
       link: "https://www.coursera.org/account/accomplishments/verify/5XULVBGBWMFZ",
     },
     {
-      name: "Cryptography", // Translated Value in translation.json
+      name: "Cryptography", //? Translated Value in translation.json
       link: "https://www.coursera.org/account/accomplishments/verify/G3P2LD7TJTDF",
     },
     {
-      name: "Software-Security", // Translated Value in translation.json
+      name: "Software-Security", //? Translated Value in translation.json
       link: "https://www.coursera.org/account/accomplishments/verify/6FGWLWFT6UWZ",
     },
     {
-      name: "Usable-Security", // Translated Value in translation.json
+      name: "Usable-Security", //? Translated Value in translation.json
       link: "https://www.coursera.org/account/accomplishments/verify/T959PWTGY9UK",
     },
   ],
@@ -41,29 +41,29 @@ const Data = {
 
   Projects: [
     {
-      Name: "Trendo", // Translated Value in translation.json
-      Description: "Trendo-Description", // Translated Value in translation.json
+      Name: "Trendo", //? Translated Value in translation.json
+      Description: "Trendo-Description", //? Translated Value in translation.json
       Images: ImagesSrc.Trendo,
       Technologies: [IconsSrc.ReactJS, IconsSrc.Firebase],
       Clients: [IconsSrc.INOVA],
     },
     {
-      Name: "Dokkan-El-Osra", // Translated Value in translation.json
-      Description: "Dokkan-El-Osra-Description", // Translated Value in translation.json
+      Name: "Dokkan-El-Osra", //? Translated Value in translation.json
+      Description: "Dokkan-El-Osra-Description", //? Translated Value in translation.json
       Images: ImagesSrc.DokkanElOsra,
       Technologies: [IconsSrc.ReactJS],
       Clients: [IconsSrc.DokkanElOsra],
     },
     {
-      Name: "Restaurants-ERP-System", // Translated Value in translation.json
-      Description: "Restaurants-ERP-System-Description", // Translated Value in translation.json
+      Name: "Restaurants-ERP-System", //? Translated Value in translation.json
+      Description: "Restaurants-ERP-System-Description", //? Translated Value in translation.json
       Images: ImagesSrc.RestaurantsSystem,
       Technologies: [IconsSrc.ReactjsRedux, IconsSrc.MongoDB, IconsSrc.Nodejs],
       Clients: [IconsSrc.Picasso],
     },
     {
-      Name: "Public-Transportation-System", // Translated Value in translation.json
-      Description: "Public-Transportation-System-Description", // Translated Value in translation.json
+      Name: "Public-Transportation-System", //? Translated Value in translation.json
+      Description: "Public-Transportation-System-Description", //? Translated Value in translation.json
       Images: ImagesSrc.publicTransportationSystem,
       Technologies: [
         IconsSrc.ReactJS,

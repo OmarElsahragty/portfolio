@@ -7,31 +7,31 @@
 }
 
 html {
-  // This defines what 1rem is
-  font-size: 62.5%; //1 rem = 10px; --> 10px/16px = 62.5%
+  //? This defines what 1rem is
+  font-size: 62.5%; //? 1 rem = 10px; --> 10px/16px = 62.5%
 
   @include respond(huge-screen) {
-    // width < 1800px ?
-    font-size: 65.625%; //1 rem = 10.5px
+    //? width < 1800px ?
+    font-size: 65.625%; //? 1 rem = 10.5px
   }
 
   @include respond(very-big-screen) {
-    // width < 1200px ?
-    font-size: 59.375%; //1 rem = 9.5px
+    //? width < 1200px ?
+    font-size: 59.375%; //? 1 rem = 9.5px
   }
 
   @include respond(big-screen) {
-    // width < 1024px ?
-    font-size: 56.25%; //1 rem = 9px
+    //? width < 1024px ?
+    font-size: 56.25%; //? 1 rem = 9px
   }
 
   @include respond(medium-screen) {
-    // width < 900px ?
-    font-size: 50%; //1 rem = 8px
+    //? width < 900px ?
+    font-size: 50%; //? 1 rem = 8px
   }
 
   @include respond(small-screen) {
-    // width < 600px ?
-    font-size: 43.75%; //1 rem = 7px
+    //? width < 600px ?
+    font-size: 43.75%; //? 1 rem = 7px
   }
 }
