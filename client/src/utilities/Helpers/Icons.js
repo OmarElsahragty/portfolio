@@ -19,11 +19,11 @@ export const Icons = {
   },
 
   PostgreSql: {
-    src: "https://i.ibb.co/cgRHJ06/postgre.png",
+    src: "https://i.ibb.co/Db69JSg/postgre.png",
     title: "PostgreSql",
   },
-  Redis: { src: "https://i.ibb.co/1291Wtr/redis.png", title: "Redis" },
-  SocketIO: { src: "https://i.ibb.co/L6ysvM3/socketIO.png", title: "SocketIO" },
+  Redis: { src: "https://i.ibb.co/5RnJ6Rt/redis.png", title: "Redis" },
+  SocketIO: { src: "https://i.ibb.co/X7YMfwK/socketIO.png", title: "SocketIO" },
 
   Picasso: {
     src: "https://i.ibb.co/gDP05Lc/Picasso-Coffee.png",

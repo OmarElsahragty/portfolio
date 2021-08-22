@@ -1,4 +1,4 @@
-export const BASE_URL = "https://sahragty.herokuapp.com/";
+export const BASE_URL = window.location.origin;
 
 /* -------------------------------------------------------------------------- */
 /*                               SERVICES                                     */
