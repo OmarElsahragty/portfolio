@@ -71,5 +71,12 @@ export const Images = {
     "https://i.ibb.co/xX3JC4F/18.png",
     "https://i.ibb.co/GPQPgJT/19.png",
   ],
+  onPoll: [
+    "https://i.ibb.co/x5TXQx5/1.png",
+    "https://i.ibb.co/1GqVMVZ/2.png",
+    "https://i.ibb.co/bBkQx9w/3.png",
+    "https://i.ibb.co/23PhDGq/4.png",
+    "https://i.ibb.co/dLz8Bt3/5.png",
+  ],
 };
 export default Images;

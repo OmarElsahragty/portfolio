@@ -41,6 +41,19 @@ const Data = {
 
   Projects: [
     {
+      Name: "OnPoll", //? Translated Value in translation.json
+      Description: "OnPoll-Description", //? Translated Value in translation.json
+      Images: ImagesSrc.onPoll,
+      Technologies: [
+        IconsSrc.ReactJS,
+        IconsSrc.SocketIO,
+        IconsSrc.Nodejs,
+        IconsSrc.Redis,
+        IconsSrc.PostgreSql,
+      ],
+      Clients: [IconsSrc.SwisoDev],
+    },
+    {
       Name: "Trendo", //? Translated Value in translation.json
       Description: "Trendo-Description", //? Translated Value in translation.json
       Images: ImagesSrc.Trendo,

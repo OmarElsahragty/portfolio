@@ -18,6 +18,13 @@ export const Icons = {
     title: "ReactJS-Redux",
   },
 
+  PostgreSql: {
+    src: "https://i.ibb.co/cgRHJ06/postgre.png",
+    title: "PostgreSql",
+  },
+  Redis: { src: "https://i.ibb.co/1291Wtr/redis.png", title: "Redis" },
+  SocketIO: { src: "https://i.ibb.co/L6ysvM3/socketIO.png", title: "SocketIO" },
+
   Picasso: {
     src: "https://i.ibb.co/gDP05Lc/Picasso-Coffee.png",
     title: "Picasso",
@@ -31,5 +38,7 @@ export const Icons = {
   KTH: { src: "https://i.ibb.co/TwQwF9v/kth.png", title: "KTH" },
 
   INOVA: { src: "https://i.ibb.co/f2j68nD/Inova.png", title: "Inova" },
+
+  SwisoDev: { src: "https://i.ibb.co/zPKDvsg/swisodev.png", title: "SwisoDev" },
 };
 export default Icons;

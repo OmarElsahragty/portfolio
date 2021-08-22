@@ -29,6 +29,10 @@
   "PUA": "جامعة فاروس بالاسكندرية",
   "KTH": "المعهد الملكي للتكنولوجيا KTH",
 
+  "Picasso": "بيكاسو",
+  "Inova": "Inova",
+  "SwisoDev": "SwisoDev",
+
   "Certificates": "الشهادات",
   "Usable-Security": "الأمن القابل للاستخدام من قبل جامعة ماريلاند ، 17 مايو 2019",
   "Software-Security": "أمن البرمجيات من جامعة ماريلاند ، 19 يونيو 2019",
@@ -52,6 +56,9 @@
   "Presentation": "العروض",
   "Clients": "العملاء",
 
+  "OnPoll": "أنبل",
+  "OnPoll-Description": "نظام الاقتراع في الوقت الحقيقي",
+
   "Trendo": "تريندو",
   "Trendo-Description": "وسائل التواصل الاجتماعي لسوق الأوراق المالية في المملكة العربية السعودية",
 
@@ -64,8 +71,6 @@
   "Restaurants-ERP-System": "نظام تخطيط موارد المؤسسات في المطاعم",
   "Restaurants-ERP-System-Description": "منصة تخطيط موارد المؤسسات للمطاعم مصممة لتحسين استهلاك الموارد وسلسلة التوريد عن طريق تتبع الموارد",
 
-  "Picasso": "بيكاسو",
-
   "ReactJS-Redux": "ReactJS with Redux",
   "Redux": "Redux",
   "ReactJS": "ReactJS",
@@ -74,5 +79,8 @@
   "Firebase": "Firebase",
   "Google-Maps": "Google Maps",
   "Google-Cloud": "Google Cloud",
-  "SQL": "SQL"
+  "SQL": "SQL",
+  "PostgreSql": "PostgreSql",
+  "Redis": "Redis",
+  "SocketIO": "SocketIO"
 }

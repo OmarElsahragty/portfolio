@@ -29,6 +29,10 @@
   "PUA": "Pharos University in Alexandria",
   "KTH": "KTH Royal Institute of Technology",
 
+  "Picasso": "Picasso",
+  "Inova": "Inova",
+  "SwisoDev": "SwisoDev",
+
   "Certificates": "Certificates",
   "Usable-Security": "Usable Security by the University of Maryland, May 17, 2019",
   "Software-Security": "Software Security by the University of Maryland, June 19, 2019",
@@ -52,6 +56,9 @@
   "Presentation": "Presentation",
   "Clients": "Clients",
 
+  "OnPoll": "OnPoll",
+  "OnPoll-Description": "Real-time polling system",
+
   "Trendo": "Trendo",
   "Trendo-Description": "Social media for the stock market in KSA",
 
@@ -64,7 +71,6 @@
   "Restaurants-ERP-System": "Restaurants ERP System",
   "Restaurants-ERP-System-Description": "An enterprise resource planning platform for restaurants designed to improve resources consumption and the supply chain by track resources",
 
-  "Picasso": "Picasso",
   "ReactJS-Redux": "ReactJS with Redux",
   "Redux": "Redux",
   "ReactJS": "ReactJS",
@@ -73,5 +79,8 @@
   "Firebase": "Firebase",
   "Google-Maps": "Google Maps",
   "Google-Cloud": "Google Cloud",
-  "SQL": "SQL"
+  "SQL": "SQL",
+  "PostgreSql": "PostgreSql",
+  "Redis": "Redis",
+  "SocketIO": "SocketIO"
 }
