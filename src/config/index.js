@@ -9,7 +9,8 @@ export default {
 
   SMTP: {
     Host: process.env.SMTP_HOST,
-    Port: process.env.SMTP_PORT,
+    Port: process.env.SMTP_PORT * 1,
+    Secure: JSON.parse(process.env.SMTP_SECURE),
     User: process.env.SMTP_USER,
     Password: process.env.SMTP_PASSWORD,
   },
