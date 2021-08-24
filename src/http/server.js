@@ -30,7 +30,8 @@ class Server {
 
   start() {
     this.server.listen(this.port, () => {
-      console.success(`Server has started on port: ${this.port}`);
+      // eslint-disable-next-line no-console
+      console.log("✔️ ", `Server has started on port: ${this.port}`);
     });
   }
 }

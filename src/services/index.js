@@ -1,1 +1,1 @@
-export { sendMail } from "./Mail.Services";
+export { default as sendMail } from "./Mail.Service";

@@ -8,13 +8,13 @@ class AppErrors {
 
   __handleHttpError(err) {
     if (err.isServer) {
-      console.error({ SERVER_ERROR: err });
+      console.error("❌ ", { SERVER_ERROR: err });
       return SERVER_ERROR;
     } else return err.output.payload;
   }
 
   __handleUnknownError(err) {
-    console.error({ UNKNOWN_ERROR: err });
+    console.error("❌ ", { UNKNOWN_ERROR: err });
     return SERVER_ERROR;
   }
 

@@ -5,6 +5,6 @@ export default () => {
   try {
     new Server(Config.Port).start();
   } catch (err) {
-    console.error(err.message);
+    console.error("❌ ", err.message);
   }
 };
