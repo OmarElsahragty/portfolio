@@ -20,7 +20,7 @@ export const sendMail = ({ name, email, message }) => {
   return transporter
     .sendMail({
       from: Config.SMTP.User,
-      to: "omar_elsahragty@hotmail.com",
+      to: Config.App.Mail,
       subject: "Sahragty's Portfolio ✔",
       text: `
     from: ${name}

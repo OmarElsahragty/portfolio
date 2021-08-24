@@ -14,4 +14,8 @@ export default {
     User: process.env.SMTP_USER,
     Password: process.env.SMTP_PASSWORD,
   },
+
+  App: {
+    Mail: process.env.APP_MAIL,
+  },
 };
