@@ -1,4 +1,4 @@
-export const Images = {
+export default {
   wallpaper: "https://i.ibb.co/WVRvNdq/wallpaper.jpg",
   parallax: "https://i.ibb.co/7n7gk5m/parallax.jpg",
   avatarOne: "https://i.ibb.co/mtnZW8d/avatar-1.jpg",
@@ -79,4 +79,3 @@ export const Images = {
     "https://i.ibb.co/dLz8Bt3/5.png",
   ],
 };
-export default Images;

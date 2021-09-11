@@ -1,6 +1,6 @@
 import React from "react";
 import { Typography } from "@material-ui/core";
-import Data from "../../../utilities/Data";
+import Data from "../../../Data";
 
 const Copyrights = () => (
   <Typography variant="h5" color="textPrimary">

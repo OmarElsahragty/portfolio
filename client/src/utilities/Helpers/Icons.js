@@ -1,4 +1,4 @@
-export const Icons = {
+export default {
   SQL: { src: "https://i.ibb.co/mGJS5wG/SQL.png", title: "SQL" },
   GoogleCloud: {
     src: "https://i.ibb.co/VgwtNTP/Google-Cloud.png",
@@ -41,4 +41,3 @@ export const Icons = {
 
   SwisoDev: { src: "https://i.ibb.co/zPKDvsg/swisodev.png", title: "SwisoDev" },
 };
-export default Icons;

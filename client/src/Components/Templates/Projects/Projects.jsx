@@ -1,10 +1,10 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { Grid, Typography, Tooltip } from "@material-ui/core";
-import { Slideshow } from "@material-ui/icons";
+import { Slideshow, Link } from "@material-ui/icons";
 import { MultiImagesView } from "../../Molecules";
 import { Thumbnails } from "../../Organisms";
-import Data from "../../../utilities/Data";
+import Data from "../../../Data";
 
 import styles from "./Projects.module.css";
 
@@ -36,26 +36,45 @@ const Projects = () => {
             </Grid>
 
             <Grid item className={`${styles.info} position-relative`}>
-              {Project.Presentation && (
-                <Grid item className={styles.presentation}>
-                  <a
-                    target="_blank"
-                    rel="noreferrer presentation"
-                    href={Project.Presentation}
-                  >
-                    <Grid item container wrap="nowrap" alignItems="center">
-                      <Tooltip title={t("Presentation")}>
-                        <Slideshow classes={{ root: "icon" }} />
-                      </Tooltip>
-                    </Grid>
-                  </a>
+              <Grid item dir="auto" className={styles.introduction}>
+                <Grid>
+                  <Typography variant="h3" color="textPrimary">
+                    {t(Project.Name)}
+                  </Typography>
                 </Grid>
-              )}
 
-              <Grid item dir="auto">
-                <Typography variant="h3" color="textPrimary">
-                  {t(Project.Name)}
-                </Typography>
+                <Grid className="flex-container">
+                  {Project.URL && (
+                    <Grid>
+                      <a
+                        target="_blank"
+                        rel="noreferrer presentation"
+                        href={Project.URL}
+                      >
+                        <Grid item container wrap="nowrap" alignItems="center">
+                          <Tooltip title={t("Website")}>
+                            <Link classes={{ root: "icon" }} />
+                          </Tooltip>
+                        </Grid>
+                      </a>
+                    </Grid>
+                  )}
+                  {Project.Presentation && (
+                    <Grid>
+                      <a
+                        target="_blank"
+                        rel="noreferrer presentation"
+                        href={Project.Presentation}
+                      >
+                        <Grid item container wrap="nowrap" alignItems="center">
+                          <Tooltip title={t("Presentation")}>
+                            <Slideshow classes={{ root: "icon" }} />
+                          </Tooltip>
+                        </Grid>
+                      </a>
+                    </Grid>
+                  )}
+                </Grid>
               </Grid>
 
               <Grid item dir="auto">
@@ -75,6 +94,7 @@ const Projects = () => {
                   className="mt-15"
                 />
               </Grid>
+
               <Grid item className={styles.nonPhoneToggle}>
                 <Grid item>
                   <Thumbnails

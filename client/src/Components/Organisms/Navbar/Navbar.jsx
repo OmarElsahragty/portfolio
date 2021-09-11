@@ -15,7 +15,7 @@ import { Language, Facebook, LinkedIn } from "@material-ui/icons";
 import { Caller } from "../../../API";
 import { ImagesSrc } from "../../../utilities/Helpers";
 import { LabeledAvatar } from "../../Molecules";
-import Data from "../../../utilities/Data";
+import Data from "../../../Data";
 
 import styles from "./Navbar.module.css";
 

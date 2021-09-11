@@ -12,7 +12,7 @@ Generate .env file using .env.example
 
 ### Portfolio Data
 
-Configure your own data into --> `.client\src\utilities\Data`
+Configure your own data into --> `.client\src\Data`
 Configure the translation --> `.client\public\locales`
 
 ### Installation

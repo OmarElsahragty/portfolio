@@ -5,7 +5,7 @@ import { GitHub } from "@material-ui/icons";
 import { ImagesSrc } from "../../../utilities/Helpers";
 import { Copyrights } from "../../Atoms";
 import { Avatar } from "../../Molecules";
-import Data from "../../../utilities/Data";
+import Data from "../../../Data";
 
 import styles from "./Footer.module.css";
 

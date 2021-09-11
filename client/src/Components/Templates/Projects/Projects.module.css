@@ -16,15 +16,15 @@
   width: 50%;
   padding: 1.25rem 0 1rem 3rem;
 }
+.introduction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .description {
   text-overflow: clip;
   word-wrap: break-word;
   overflow-wrap: break-word;
-}
-.presentation {
-  position: absolute;
-  right: 0;
-  top: -1.5rem;
 }
 .nonPhoneToggle {
   display: block;

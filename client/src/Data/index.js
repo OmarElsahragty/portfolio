@@ -1,4 +1,4 @@
-import { ImagesSrc, IconsSrc } from "../Helpers";
+import { ImagesSrc, IconsSrc } from "../utilities/Helpers";
 
 const Data = {
   Brand: "Sahragty",
@@ -59,6 +59,7 @@ const Data = {
       Images: ImagesSrc.Trendo,
       Technologies: [IconsSrc.ReactJS, IconsSrc.Firebase],
       Clients: [IconsSrc.INOVA],
+      URL: "http://web.trendo.site/",
     },
     {
       Name: "Dokkan-El-Osra", //? Translated Value in translation.json

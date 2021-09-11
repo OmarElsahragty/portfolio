@@ -20,7 +20,7 @@ import {
 import { ImagesSrc } from "../../../utilities/Helpers";
 import { LabeledAvatar } from "../../Molecules";
 import { Thumbnails } from "../../Organisms";
-import Data from "../../../utilities/Data";
+import Data from "../../../Data";
 
 import styles from "./About.module.css";
 
