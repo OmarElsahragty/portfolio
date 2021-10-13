@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, Tooltip } from "@material-ui/core";
-import { GitHub } from "@material-ui/icons";
+import { Code } from "@material-ui/icons";
 
 import { ImagesSrc } from "../../../utilities/Helpers";
 import { Copyrights } from "../../Atoms";
@@ -27,8 +27,8 @@ const Footer = () => (
 
       <Grid item>
         <Tooltip title="Github">
-          <a target="_blank" rel="noreferrer github" href={Data.Github}>
-            <GitHub classes={{ root: "social-icon" }} />
+          <a target="_blank" rel="noreferrer github" href={Data.ProjectRepo}>
+            <Code classes={{ root: "social-icon" }} />
           </a>
         </Tooltip>
       </Grid>

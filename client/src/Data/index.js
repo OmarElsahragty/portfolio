@@ -4,7 +4,9 @@ const Data = {
   Brand: "Sahragty",
   Facebook: "https://www.facebook.com/Omar.Elsahragty",
   LinkedIn: "https://www.linkedin.com/in/omar-elsahragty",
-  Github: "https://github.com/OmarElsahragty/portfolio",
+  Github: "https://github.com/OmarElsahragty",
+
+  ProjectRepo: "https://github.com/OmarElsahragty/portfolio",
 
   Email: "omar_elsahragty@hotmail.com",
 

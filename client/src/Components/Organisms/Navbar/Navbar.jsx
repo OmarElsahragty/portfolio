@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import i18next from "i18next";
 import { useTranslation } from "react-i18next";
-//! import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import {
   Grid,
   Typography,
@@ -10,7 +10,7 @@ import {
   Menu,
   MenuItem,
 } from "@material-ui/core";
-import { Language, Facebook, LinkedIn } from "@material-ui/icons";
+import { Language, Facebook, LinkedIn, GitHub } from "@material-ui/icons";
 
 import { Caller } from "../../../API";
 import { ImagesSrc } from "../../../utilities/Helpers";
@@ -139,8 +139,13 @@ const Navbar = () => {
             </Tooltip>
             <div className="px-5" />
             <Tooltip title="LinkedIn">
-              <a target="_blank" rel="noreferrer linkedin" href={Data.LinkedIn}>
+              <a target="_blank" rel="noreferrer linkedIn" href={Data.LinkedIn}>
                 <LinkedIn classes={{ root: "social-icon" }} />
+              </a>
+            </Tooltip>
+            <Tooltip title="LinkedIn">
+              <a target="_blank" rel="noreferrer Github" href={Data.Github}>
+                <GitHub classes={{ root: "social-icon" }} />
               </a>
             </Tooltip>
           </Grid>
