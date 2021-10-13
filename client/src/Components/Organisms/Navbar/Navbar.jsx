@@ -143,7 +143,8 @@ const Navbar = () => {
                 <LinkedIn classes={{ root: "social-icon" }} />
               </a>
             </Tooltip>
-            <Tooltip title="LinkedIn">
+            <div className="px-5" />
+            <Tooltip title="Github">
               <a target="_blank" rel="noreferrer Github" href={Data.Github}>
                 <GitHub classes={{ root: "social-icon" }} />
               </a>

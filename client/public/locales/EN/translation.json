@@ -83,5 +83,7 @@
   "SQL": "SQL",
   "PostgreSql": "PostgreSql",
   "Redis": "Redis",
-  "SocketIO": "SocketIO"
+  "SocketIO": "SocketIO",
+
+  "Code": "Code"
 }

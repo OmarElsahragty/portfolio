@@ -26,7 +26,7 @@ const Footer = () => (
       </Grid>
 
       <Grid item>
-        <Tooltip title="Github">
+        <Tooltip title={t("Code")}>
           <a target="_blank" rel="noreferrer github" href={Data.ProjectRepo}>
             <Code classes={{ root: "social-icon" }} />
           </a>
